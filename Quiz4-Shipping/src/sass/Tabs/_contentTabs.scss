@@ -1,0 +1,24 @@
+.tab-content{
+  display:none;
+}
+.active{
+  display: block;
+  position: absolute;
+  top: 25px;
+}
+
+.ui-tab-right{
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+	.tab-content-showing {
+		height: 200px;
+		overflow: hidden;
+		overflow-y: auto;
+		position: unset;
+	}
+}
+
+
+

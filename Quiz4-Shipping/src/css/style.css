@@ -1,0 +1,47 @@
+.tab-content {
+  display: none; }
+
+.active {
+  display: block;
+  position: absolute;
+  top: 25px; }
+
+@media only screen and (max-width: 600px) {
+  .tab-content-showing {
+    height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+    position: unset; } }
+.ui-tab-width {
+  display: inline-block;
+  margin-left: 2%; }
+
+.ui-tabs-container {
+  position: relative;
+  height: 70vh; }
+
+.ui-tabs {
+  position: relative;
+  list-style: none; }
+
+.tab-left {
+  left: 10%; }
+
+.tab-right {
+  
+  right: 10%; }
+
+.ui-tab-right{
+  float: right;}
+
+@media only screen and (max-width: 600px) {
+  .ui-tabs {
+    position: unset; }
+
+  .tab-left {
+    position: unset; }
+
+  .tab-right {
+    position: unset; } }
+
+/*# sourceMappingURL=style.css.map */
